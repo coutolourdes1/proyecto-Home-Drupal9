@@ -1,0 +1,19 @@
+modulo.content:
+  path: '/admin/config/pepito'
+  defaults:
+    _controller: 'Drupal\modulo\Controller\pruebasController::content'
+    _title: 'Modulos de pruebas'
+  requirements:
+    _permission: 'access content'
+  options: 
+    no_cache: 'TRUE'
+
+modulo.crearFomulario:
+  path: '/admin/config/donaciones'
+  defaults:
+    _controller: 'Drupal\modulo\Controller\pruebasController::crearFomulario'
+    _title: 'Modulo Formulario donaciones'
+  requirements:
+    _permission: 'access content'
+  option:
+    no_cache: 'TRUE'

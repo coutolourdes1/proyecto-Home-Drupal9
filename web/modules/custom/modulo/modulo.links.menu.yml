@@ -1,0 +1,6 @@
+modulo.homepage:
+  title: Modulo de pruebas
+  description: 'Modulo'
+  parent: system.admin_config_ui
+
+  route_name: modulo.content

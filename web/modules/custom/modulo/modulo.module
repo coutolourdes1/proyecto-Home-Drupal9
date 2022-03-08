@@ -1,0 +1,16 @@
+<?php 
+    function modulo_thema($existing, $type, $theme, $paths){
+        return array(
+            'Crear_formulario' => array(
+                'variables' => array(
+                    'titulo' => 'titulo por defecto',
+                    'descripcion' => 'descripción por defecto',
+                    'formulario' => NULL,
+                ),
+                'template' => 'Crear Formulario'            
+            )
+        );
+    }
+
+
+?>
